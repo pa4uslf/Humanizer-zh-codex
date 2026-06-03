@@ -1,0 +1,43 @@
+{
+  "name": "humanizer-zh-codex",
+  "version": "1.0.0-codex.0",
+  "description": "Codex skill for rewriting Chinese text to remove AI writing tells and make prose more natural, direct, and specific.",
+  "author": {
+    "name": "op7418; Codex adaptation by pa4uslf",
+    "url": "https://github.com/pa4uslf/Humanizer-zh-codex"
+  },
+  "homepage": "https://github.com/pa4uslf/Humanizer-zh-codex",
+  "repository": "https://github.com/pa4uslf/Humanizer-zh-codex",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "writing",
+    "editing",
+    "humanizer",
+    "chinese",
+    "ai-writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Humanizer-zh",
+    "shortDescription": "Chinese prose editing skill for removing AI writing tells.",
+    "longDescription": "Humanizer-zh helps Codex rewrite Chinese prose so it sounds more natural, direct, and specific while preserving facts, names, numbers, technical terms, and the original meaning.",
+    "developerName": "pa4uslf",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/pa4uslf/Humanizer-zh-codex",
+    "termsOfServiceURL": "https://github.com/pa4uslf/Humanizer-zh-codex/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Use humanizer-zh to remove AI writing tells from this Chinese text.",
+      "Rewrite this Chinese draft so it sounds more natural and less generated.",
+      "Review this Chinese copy for AI-like phrasing and return a cleaner rewrite."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
